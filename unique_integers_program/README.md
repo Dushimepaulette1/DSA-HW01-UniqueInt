@@ -37,19 +37,19 @@ This program reads input files with integers (one integer per line), finds all u
 Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/unique-integers-processor.git
+git clone https://github.com/Dushimepaulette1/DSA-HW01-UniqueInt.git
 ```
 
 Navigate to the project directory:
 
 ```bash
-cd unique-integers-processor
+cd DSA-HW01-UniqueInt/unique_integers_program
 ```
 
 Run the program once to create the needed folders:
 
 ```bash
-python unique_integers_terminal.py
+python unique_integers.py
 ```
 
 ---
@@ -61,7 +61,7 @@ python unique_integers_terminal.py
 Run the program without arguments for an interactive menu:
 
 ```bash
-python unique_integers_terminal.py
+python unique_integers.py
 ```
 
 ### Command-Line Mode
@@ -69,13 +69,13 @@ python unique_integers_terminal.py
 Process all files in the input folder:
 
 ```bash
-python unique_integers_terminal.py --all
+python unique_integers.py --all
 ```
 
 Process a specific file:
 
 ```bash
-python unique_integers_terminal.py --file sample_inputs/my_file.txt
+python unique_integers.py --file sample_inputs/my_file.txt
 ```
 
 Display help:
@@ -139,8 +139,8 @@ Note that -9 and 5 only appear once in the output, despite appearing multiple ti
 ## File Structure
 
 ```
-unique-integers-processor/
-├── unique_integers_terminal.py
+unique-integers-program/
+├── unique_integers.py
 ├── sample_inputs/           # Place input files here
 └── sample_results/          # Output files will be generated here
 ```
