@@ -2,6 +2,9 @@ import os
 import sys
 import time
 import glob
+import tracemalloc
+
+
 
 class UniqueInt:
     def __init__(self):
@@ -53,6 +56,8 @@ class UniqueInt:
     def process_file(self, input_file_path, output_file_path):
         """Process a file to find unique integers and write them to output"""
         print(f"\nProcessing {input_file_path}...")
+        tracemalloc.start()
+
         
         # Reset the seen integers array
         self.seen_integers = [False] * self.ARRAY_SIZE
@@ -78,6 +83,10 @@ class UniqueInt:
             
             self.end_time = time.time()
             processing_time = (self.end_time - self.start_time) * 1000  # Convert to ms
+            current, peak = tracemalloc.get_traced_memory()
+            print(f"  Memory usage: {current / 1024:.2f} KB (current), {peak / 1024:.2f} KB (peak)")
+            tracemalloc.stop()
+
             
             print(f"✓ Completed successfully!")
             print(f"  Runtime: {processing_time:.2f} ms")
