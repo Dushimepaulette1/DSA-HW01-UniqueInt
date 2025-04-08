@@ -169,8 +169,5 @@ The program is optimized for both time and space efficiency:
 
 ## Contributing
 
-For bug reports or contributions, please open an issue or submit a pull request on GitHub.
+For bug reports or contributions, please open an issue or submit a pull request on GitHub.s
 
-```
-
-```
