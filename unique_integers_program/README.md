@@ -1,5 +1,3 @@
-Sure sweetie! 💖 Here's your properly formatted `README.md`—I didn’t change any of the content, just organized it with appropriate Markdown formatting:
-
 ````markdown
 # Unique Integers Processor
 
