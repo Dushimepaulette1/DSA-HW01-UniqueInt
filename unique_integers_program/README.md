@@ -1,4 +1,3 @@
-````markdown
 # Unique Integers Processor
 
 A Python program that processes files containing integers and generates output files with unique integers sorted in ascending order.
@@ -37,19 +36,19 @@ This program reads input files with integers (one integer per line), finds all u
 Clone the repository:
 
 ```bash
-git clone https://github.com/Dushimepaulette1/DSA-HW01-UniqueInt.git
+git clone https://github.com/yourusername/unique-integers-processor.git
 ```
 
 Navigate to the project directory:
 
 ```bash
-cd DSA-HW01-UniqueInt/unique_integers_program
+cd unique-integers-processor
 ```
 
 Run the program once to create the needed folders:
 
 ```bash
-python unique_integers.py
+python unique_integers_terminal.py
 ```
 
 ---
@@ -61,7 +60,7 @@ python unique_integers.py
 Run the program without arguments for an interactive menu:
 
 ```bash
-python unique_integers.py
+python unique_integers_terminal.py
 ```
 
 ### Command-Line Mode
@@ -69,13 +68,13 @@ python unique_integers.py
 Process all files in the input folder:
 
 ```bash
-python unique_integers.py --all
+python unique_integers_terminal.py --all
 ```
 
 Process a specific file:
 
 ```bash
-python unique_integers.py --file sample_inputs/my_file.txt
+python unique_integers_terminal.py --file sample_inputs/my_file.txt
 ```
 
 Display help:
@@ -111,7 +110,7 @@ Lines with any of the following will be skipped:
 
 ### Input file:
 
-```
+```text
 5
 14
 5
@@ -124,7 +123,7 @@ Lines with any of the following will be skipped:
 
 ### Output file:
 
-```
+```text
 -9
 -1
 5
@@ -138,9 +137,9 @@ Note that -9 and 5 only appear once in the output, despite appearing multiple ti
 
 ## File Structure
 
-```
-unique-integers-program/
-├── unique_integers.py
+```text
+unique-integers-processor/
+├── unique_integers_terminal.py
 ├── sample_inputs/           # Place input files here
 └── sample_results/          # Output files will be generated here
 ```
@@ -169,4 +168,3 @@ The program is optimized for both time and space efficiency:
 ## Contributing
 
 For bug reports or contributions, please open an issue or submit a pull request on GitHub.
-````
