@@ -39,7 +39,6 @@ Clone the repository:
 ```bash
 git clone https://github.com/yourusername/unique-integers-processor.git
 ```
-````
 
 Navigate to the project directory:
 
@@ -169,5 +168,5 @@ The program is optimized for both time and space efficiency:
 
 ## Contributing
 
-For bug reports or contributions, please open an issue or submit a pull request on GitHub.s
-
+For bug reports or contributions, please open an issue or submit a pull request on GitHub.
+````
